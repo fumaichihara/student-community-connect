@@ -35,7 +35,8 @@ export default function About() {
           <p className="eyebrow">About Connect</p>
           <h1 className="mt-5 max-w-2xl font-display text-3xl font-bold leading-tight text-slate-150 sm:text-4xl lg:text-5xl">
             就活を一歩先に。
-            君と成功をつなげる。
+            <br />
+ 　　　　　　君と成功をつなげる。
           </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
             {SITE.orgName}（{SITE.orgNameEn}）は、企業と学生、ビジネスと若者の可能性を「つなぐ（Connect）」架け橋となることを目指す学生団体です。
