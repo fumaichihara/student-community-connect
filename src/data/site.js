@@ -2,17 +2,17 @@ export const SITE = {
   orgName: '学生コミュニティConnect',
   orgNameEn: 'Student Community Connect',
   memberCount: 27,
-  interviewTargetCount: 12,
-  projectCount: 8,
+  interviewTargetCount: 1,
+  projectCount: 2,
   googleFormUrl:
     'https://docs.google.com/forms/d/e/1FAIpQLScUQyiq0ecmviiujeBtXE50_e9gM5Dcw8OPemcn_TPm_fxonQ/viewform?embedded=true',
   googleFormUrlDirect:
     'https://docs.google.com/forms/d/e/1FAIpQLScUQyiq0ecmviiujeBtXE50_e9gM5Dcw8OPemcn_TPm_fxonQ/viewform',
-  contactEmail: 'contact@student-connect.jp',
+  contactEmail: 'Connect.studentcommunity@gmail.com',
   sns: [
-    { name: 'X', href: 'https://x.com/' },
-    { name: 'Instagram', href: 'https://instagram.com/' },
-    { name: 'TikTok', href: 'https://tiktok.com/' },
+    { name: 'X', href: 'https://x.com/connectjp1' },
+    { name: 'Instagram', href: 'https://www.instagram.com/connect.community.jp/?hl=en' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@connectcommunity1?lang=en' },
   ],
 }
 
