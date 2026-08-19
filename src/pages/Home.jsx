@@ -48,7 +48,7 @@ export default function Home() {
             君と成功をつなげる。
           </h1>
          <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
- 　　　　　 学生コミュニティConnectは、経営者インタビューや実践的なプロジェクトを
+ 　　　　　 学生コミュニティCONNECTは、経営者インタビューや実践的なプロジェクトを
   　　　　　<br />
   　　　　　通じて、若者と社会をダイレクトに結びつけます。
 　　　　　</p>
