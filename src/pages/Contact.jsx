@@ -25,8 +25,8 @@ export default function Contact() {
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
             取材のご依頼、案件掲載のご相談、
-            
-            その他Connectに関するお問い合わせはこちらから。
+            <br />
+　　　　　　　その他Connectに関するお問い合わせはこちらから。
           </p>
         </div>
       </section>
@@ -42,7 +42,9 @@ export default function Contact() {
               {SITE.contactEmail}
             </a>
             <p className="mt-4 text-sm leading-relaxed text-slate-150/60">
-              通常2〜3営業日以内にご返信いたします。案件掲載やインタビューのご相談も歓迎です。
+              通常2〜3営業日以内にご返信いたします。
+              <br />
+              案件掲載やインタビューのご相談も歓迎です。
             </p>
           </div>
         </div>
