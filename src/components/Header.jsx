@@ -14,7 +14,7 @@ export default function Header() {
   }, [location.pathname])
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/5 bg-navy-950/85 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-slate-150/10 bg-navy-950/85 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8">
         <Logo />
 
@@ -51,29 +51,4 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-white/5 bg-navy-950 px-5 pb-6 pt-2 lg:hidden">
-          <nav className="flex flex-col gap-1" aria-label="モバイルナビゲーション">
-            {NAV_ITEMS.map((item) => (
-              <NavLink
-                key={item.to}
-                to={item.to}
-                className={({ isActive }) =>
-                  `rounded-lg px-3 py-3 text-base font-medium ${
-                    isActive ? 'bg-white/5 text-accent-light' : 'text-slate-150/85'
-                  }`
-                }
-              >
-                {item.label}
-              </NavLink>
-            ))}
-          </nav>
-          <div className="mt-4">
-            <CTAButton to="/join" className="w-full justify-center">
-              コミュニティに参加
-            </CTAButton>
-          </div>
-        </div>
-      )}
-    </header>
-  )
-}
+        <div className="border-t border-slate-150/10 bg-navy-950 px-5
