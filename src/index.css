@@ -7,8 +7,8 @@ html {
 }
 
 ::selection {
-  background-color: #2f5dff;
-  color: white;
+  background-color: #ffd700;
+  color: #19376d;
 }
 
 /* Signature element: repeating chevron rule used as a section divider / brand motif */
@@ -18,7 +18,7 @@ html {
   gap: 2px;
   overflow: hidden;
   white-space: nowrap;
-  color: #2f5dff;
+  color: #19376d;
   opacity: 0.55;
   font-family: 'Space Grotesk', sans-serif;
   letter-spacing: 0.2em;
@@ -26,8 +26,8 @@ html {
 }
 
 .card-surface {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.015) 100%);
-  border: 1px solid rgba(148, 163, 200, 0.14);
+  background: linear-gradient(180deg, rgba(25, 55, 109, 0.03) 0%, rgba(25, 55, 109, 0.015) 100%);
+  border: 1px solid rgba(25, 55, 109, 0.12);
 }
 
 .eyebrow {
@@ -35,7 +35,7 @@ html {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   font-size: 0.72rem;
-  color: #5b7fff;
+  color: #19376d;
 }
 
 /* Focus visibility for keyboard users */
@@ -44,7 +44,7 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 2px solid #5b7fff;
+  outline: 2px solid #ffd700;
   outline-offset: 3px;
   border-radius: 4px;
 }
