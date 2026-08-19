@@ -32,12 +32,12 @@ export default function ProjectModal({ project, onClose }) {
         aria-modal="true"
         aria-labelledby="project-modal-title"
         onClick={(e) => e.stopPropagation()}
-        className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-t-3xl border border-white/10 bg-navy-900 p-6 shadow-2xl sm:rounded-3xl sm:p-8"
+        className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-t-3xl border border-slate-150/12 bg-navy-900 p-6 shadow-2xl sm:rounded-3xl sm:p-8"
       >
         <div className="flex items-start justify-between gap-4">
           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag) => (
-              <span key={tag} className="rounded-full bg-accent/10 px-2.5 py-1 text-[11px] font-medium text-accent-light">
+              <span key={tag} className="rounded-full bg-highlight/25 px-2.5 py-1 text-[11px] font-semibold text-accent">
                 {tag}
               </span>
             ))}
@@ -45,7 +45,7 @@ export default function ProjectModal({ project, onClose }) {
           <button
             onClick={onClose}
             aria-label="閉じる"
-            className="shrink-0 rounded-full border border-white/10 p-1.5 text-slate-150/70 hover:bg-white/5"
+            className="shrink-0 rounded-full border border-slate-150/12 p-1.5 text-slate-150/70 hover:bg-slate-150/5"
           >
             <X className="h-4 w-4" />
           </button>
