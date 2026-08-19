@@ -39,8 +39,7 @@ export default function About() {
             を行動で示す学生団体。
           </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            {SITE.orgName}（{SITE.orgNameEn}）は、企業と学生、ビジネスと若者の可能性を「つなぐ（Connect）」架け橋となることを目指す学生団体です。矢印（&gt;&gt;&gt;）のモチーフには、前進と成長への意志を込めています。
-          </p>
+            {SITE.orgName}（{SITE.orgNameEn}）は、企業と学生、ビジネスと若者の可能性を「つなぐ（Connect）」架け橋となることを目指す学生団体です。
         </div>
         <ChevronRule className="border-t border-slate-150/10 py-3" />
       </section>
