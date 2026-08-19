@@ -1,6 +1,6 @@
 export const SITE = {
-  orgName: '学生コミュニティConnect',
-  orgNameEn: 'Student Community Connect',
+  orgName: '学生コミュニティCONNECT',
+  orgNameEn: 'Student Community CONNECT',
   memberCount: 27,
   interviewTargetCount: 1,
   projectCount: 2,
