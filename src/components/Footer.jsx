@@ -5,7 +5,7 @@ import { SITE } from '../data/site.js'
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-navy-900">
+    <footer className="border-t border-slate-150/10 bg-navy-900">
       <div className="mx-auto max-w-7xl px-5 py-14 sm:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -44,7 +44,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            <a
+            
               href={`mailto:${SITE.contactEmail}`}
               className="mt-4 inline-flex items-center gap-2 rounded-full border border-accent/50 px-4 py-2 text-xs font-medium text-slate-150 hover:bg-accent/10"
             >
@@ -54,7 +54,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-6 text-xs text-slate-150/40 sm:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-slate-150/10 pt-6 text-xs text-slate-150/40 sm:flex-row">
           <p>© {new Date().getFullYear()} {SITE.orgName}. All rights reserved.</p>
           <p className="tracking-widest">CONNECT — つなぐ、前進する。</p>
         </div>
