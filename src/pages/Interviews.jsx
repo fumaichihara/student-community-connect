@@ -16,7 +16,9 @@ export default function Interviews() {
             業種別インタビュー
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            商社・物流・IT・メーカーなど、様々な業種の経営者・役員のリアルな声を届けます。
+            商社・物流・IT・メーカーなど、
+            <br />
+            様々な業種の経営者・役員のリアルな声を届けます。
           </p>
         </div>
       </section>
