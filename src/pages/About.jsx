@@ -34,7 +34,9 @@ export default function About() {
         <div className="mx-auto max-w-7xl px-5 pb-16 pt-16 sm:px-8 sm:pb-20 sm:pt-24">
           <p className="eyebrow">About Connect</p>
           <h1 className="mt-5 max-w-2xl font-display text-3xl font-bold leading-tight text-slate-150 sm:text-4xl lg:text-5xl">
-            「つなぐ」を、行動で示す学生団体。
+            「つなぐ」を、
+             <br />
+            行動で示す学生団体。
           </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
             {SITE.orgName}（{SITE.orgNameEn}）は、企業と学生、ビジネスと若者の可能性を「つなぐ（Connect）」架け橋となることを目指す学生団体です。矢印（&gt;&gt;&gt;）のモチーフには、前進と成長への意志を込めています。
