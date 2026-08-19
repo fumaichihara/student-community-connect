@@ -51,4 +51,29 @@ export default function Header() {
       </div>
 
       {open && (
-        <div className="border-t border-slate-150/10 bg-navy-950 px-5
+        <div className="border-t border-slate-150/10 bg-navy-950 px-5 pb-6 pt-2 lg:hidden">
+          <nav className="flex flex-col gap-1" aria-label="モバイルナビゲーション">
+            {NAV_ITEMS.map((item) => (
+              <NavLink
+                key={item.to}
+                to={item.to}
+                className={({ isActive }) =>
+                  `rounded-lg px-3 py-3 text-base font-medium ${
+                    isActive ? 'bg-slate-150/5 text-accent-light' : 'text-slate-150/85'
+                  }`
+                }
+              >
+                {item.label}
+              </NavLink>
+            ))}
+          </nav>
+          <div className="mt-4">
+            <CTAButton to="/join" className="w-full justify-center">
+              コミュニティに参加
+            </CTAButton>
+          </div>
+        </div>
+      )}
+    </header>
+  )
+}
