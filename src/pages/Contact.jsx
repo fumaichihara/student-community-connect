@@ -24,7 +24,9 @@ export default function Contact() {
             お問い合わせ
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            取材のご依頼、案件掲載のご相談、その他Connectに関するお問い合わせはこちらから。
+            取材のご依頼、案件掲載のご相談、
+            
+            その他Connectに関するお問い合わせはこちらから。
           </p>
         </div>
       </section>
