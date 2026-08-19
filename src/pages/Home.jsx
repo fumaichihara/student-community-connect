@@ -43,12 +43,14 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-5 pb-20 pt-16 sm:px-8 sm:pb-28 sm:pt-24">
           <p className="eyebrow">Student Community Connect</p>
           <h1 className="mt-5 max-w-3xl font-display text-3xl font-bold leading-tight text-slate-150 sm:text-5xl lg:text-6xl">
-            企業と学生をつなぎ、
+            就活を一歩先に。
             <br />
-            新しい可能性へ前進する。
+            君と成功をつなげる。
           </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            学生コミュニティConnectは、経営者インタビューや実践的なプロジェクトを通じて、若者と社会をダイレクトに結びつけます。
+            学生コミュニティCONNECTは、経営者インタビューや実践的なプロジェクトを通じて、
+            <br />
+            若者と社会をダイレクトに結びつけます。
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -72,8 +74,8 @@ export default function Home() {
       <Section>
         <SectionHeading
           eyebrow="About Connect"
-          title="企業と学生の間に、実践的な架け橋をつくる"
-          description="設立以来、Connectは「聞く」だけでなく「動く」機会を学生に届けることを大切にしてきました。"
+          title={<>企業と学生の間に、<br />実践的な架け橋をつくる</>}
+          description="CONNECTは「聞く」だけでなく「動く」機会を学生に届けることを大切にしてきました。"
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-3">
           {aboutPoints.map(({ icon: Icon, title, text }) => (
