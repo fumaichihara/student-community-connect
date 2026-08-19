@@ -29,7 +29,9 @@ export default function Projects() {
             掲載案件・インターン
           </h1>
           <p className="mt-5 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            企業と連携した実践的なプロジェクト・インターン案件を掲載しています。気になる案件を見つけたら、詳細をチェックしてみましょう。
+            企業と連携した実践的なプロジェクト・インターン案件を掲載しています。
+            <br />
+            気になる案件を見つけたら、詳細をチェックしてみましょう。
           </p>
         </div>
       </section>
