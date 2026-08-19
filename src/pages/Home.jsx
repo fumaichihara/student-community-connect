@@ -129,7 +129,9 @@ export default function Home() {
             次に前進するのは、あなたの番です。
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-sm leading-relaxed text-slate-150/60 sm:text-base">
-            共に挑戦し、成長する学生メンバーを募集しています。まずはお気軽にご応募ください。
+            共に挑戦し、成長する学生メンバーを募集しています。
+  　　　　　<br />
+            まずはお気軽にご応募ください。
           </p>
           <div className="mt-8 flex justify-center">
             <CTAButton to="/join">コミュニティに参加する</CTAButton>
