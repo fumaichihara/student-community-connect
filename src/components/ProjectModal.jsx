@@ -37,7 +37,7 @@ export default function ProjectModal({ project, onClose }) {
         <div className="flex items-start justify-between gap-4">
           <div className="flex flex-wrap gap-2">
             {project.tags.map((tag) => (
-              <span key={tag} className="rounded-full bg-highlight/25 px-2.5 py-1 text-[11px] font-semibold text-accent">
+              <span key={tag} className="rounded-full bg-accent/10 px-2.5 py-1 text-[11px] font-medium text-accent-light">
                 {tag}
               </span>
             ))}

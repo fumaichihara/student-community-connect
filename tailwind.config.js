@@ -13,7 +13,7 @@ export default {
         },
         slate: {
           150: '#19376D',
-       },
+        },
         accent: {
           DEFAULT: '#19376D',
           light: '#2C5AA0',
@@ -29,7 +29,7 @@ export default {
         body: ['"Noto Sans JP"', 'sans-serif'],
       },
       backgroundImage: {
-        'chevron-fade': 'linear-gradient(120deg, #0B1226 0%, #111A33 55%, #182448 100%)',
+        'chevron-fade': 'linear-gradient(120deg, #FFFFFF 0%, #FAFAFA 55%, #F5F5F5 100%)',
       },
       keyframes: {
         chevronMove: {

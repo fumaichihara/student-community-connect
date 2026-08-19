@@ -18,7 +18,7 @@ export default function Projects() {
   )
 
   const selectClass =
-    'w-full rounded-xl border border-white/10 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none'
+    'w-full rounded-xl border border-slate-150/12 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none'
 
   return (
     <>

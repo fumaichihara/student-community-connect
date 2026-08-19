@@ -44,7 +44,7 @@ export default function Footer() {
                 </li>
               ))}
             </ul>
-            
+            <a
               href={`mailto:${SITE.contactEmail}`}
               className="mt-4 inline-flex items-center gap-2 rounded-full border border-accent/50 px-4 py-2 text-xs font-medium text-slate-150 hover:bg-accent/10"
             >

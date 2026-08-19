@@ -65,7 +65,7 @@ export default function Home() {
           </div>
         </div>
 
-        <ChevronRule className="border-t border-white/5 py-3" />
+        <ChevronRule className="border-t border-slate-150/10 py-3" />
       </section>
 
       {/* About */}

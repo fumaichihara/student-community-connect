@@ -65,7 +65,7 @@ export default function Contact() {
                   type="text"
                   value={form.name}
                   onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  className="w-full rounded-xl border border-white/10 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
+                  className="w-full rounded-xl border border-slate-150/12 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
                   placeholder="山田 太郎"
                 />
               </label>
@@ -76,7 +76,7 @@ export default function Contact() {
                   type="email"
                   value={form.email}
                   onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  className="w-full rounded-xl border border-white/10 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
+                  className="w-full rounded-xl border border-slate-150/12 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
                   placeholder="you@example.com"
                 />
               </label>
@@ -87,7 +87,7 @@ export default function Contact() {
                   rows={5}
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  className="w-full resize-none rounded-xl border border-white/10 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
+                  className="w-full resize-none rounded-xl border border-slate-150/12 bg-navy-800 px-3.5 py-2.5 text-sm text-slate-150 focus:border-accent focus:outline-none"
                   placeholder="お問い合わせ内容をご記入ください"
                 />
               </label>

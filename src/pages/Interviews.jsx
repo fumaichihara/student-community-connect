@@ -32,7 +32,7 @@ export default function Interviews() {
               className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                 category === cat
                   ? 'border-accent bg-accent text-white'
-                  : 'border-white/10 text-slate-150/70 hover:border-accent/40 hover:text-slate-150'
+                  : 'border-slate-150/12 text-slate-150/70 hover:border-accent/40 hover:text-slate-150'
               }`}
             >
               {cat}

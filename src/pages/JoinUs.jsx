@@ -5,7 +5,7 @@ import { SITE } from '../data/site.js'
 
 const steps = [
   '以下のフォームに必要事項を入力',
-  '運営からのご案内に沿ってLINEグループへ参加',
+  '運営メンバーとの簡単なオンライン面談',
   'コミュニティへようこそ！活動キックオフ',
 ]
 
@@ -41,7 +41,7 @@ export default function JoinUs() {
 
       <Section className="pt-0">
         <div className="card-surface overflow-hidden rounded-3xl">
-          <div className="border-b border-white/10 px-6 py-5">
+          <div className="border-b border-slate-150/12 px-6 py-5">
             <h2 className="font-display text-lg font-semibold text-slate-150">参加申し込みフォーム</h2>
             <p className="mt-1 text-xs text-slate-150/50">
               フォームの読み込みに数秒かかる場合があります。
@@ -67,7 +67,7 @@ export default function JoinUs() {
             </iframe>
           </div>
 
-          <div className="flex flex-col items-center gap-3 border-t border-white/10 px-6 py-6 text-center">
+          <div className="flex flex-col items-center gap-3 border-t border-slate-150/12 px-6 py-6 text-center">
             <p className="flex items-center gap-1.5 text-xs text-slate-150/50">
               <CheckCircle2 className="h-3.5 w-3.5" />
               フォームがうまく表示されない場合は、以下のボタンから直接開いてご回答ください。
