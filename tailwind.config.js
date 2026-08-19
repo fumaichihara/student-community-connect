@@ -13,11 +13,15 @@ export default {
         },
         slate: {
           150: '#19376D',
-        },
+       },
         accent: {
           DEFAULT: '#19376D',
           light: '#2C5AA0',
           dark: '#102A57',
+        },
+        highlight: {
+          DEFAULT: '#FFD700',
+          dark: '#E6C200',
         },
       },
       fontFamily: {
