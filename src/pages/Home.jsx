@@ -47,11 +47,11 @@ export default function Home() {
             <br />
             君と成功をつなげる。
           </h1>
-          <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
-            学生コミュニティCONNECTは、経営者インタビューや実践的なプロジェクトを通じて、
-            <br />
-            若者と社会をダイレクトに結びつけます。
-          </p>
+         <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
+ 　　　　　 学生コミュニティConnectは、経営者インタビューや実践的なプロジェクトを
+  　　　　　<br />
+  　　　　　通じて、若者と社会をダイレクトに結びつけます。
+　　　　　</p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <CTAButton to="/join">コミュニティに参加する</CTAButton>
