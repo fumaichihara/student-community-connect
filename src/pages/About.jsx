@@ -37,11 +37,12 @@ export default function About() {
             「つなぐ」
             <br />
             を行動で示す学生団体。
-          </h1>
+        </h1>
           <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-150/65 sm:text-base">
             {SITE.orgName}（{SITE.orgNameEn}）は、企業と学生、ビジネスと若者の可能性を「つなぐ（CONNECT）」架け橋となることを目指す学生団体です。
-　　　　　 </p>
+          </p>
           <ChevronRule className="border-t border-slate-150/10 py-3" />
+        </div>
       </section>
 
       <Section>
