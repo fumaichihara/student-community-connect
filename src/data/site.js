@@ -1,7 +1,7 @@
 export const SITE = {
   orgName: '学生コミュニティCONNECT',
   orgNameEn: 'Student Community CONNECT',
-  memberCount: 28,
+  memberCount: 29,
   interviewTargetCount: 1,
   projectCount: 2,
   googleFormUrl:
